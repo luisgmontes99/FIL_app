@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FIL</string>
+    <!--BOTON INFORMACION GENERAL-->
+    <string name="txt_info">Información General</string>
+    <string name="txt_ih">Invitado de Honor</string>
+    <string name="txt_contact">Contacto (Oficinas FIL)</string>
+    <string name="txt_est">Estacionamientos</string>
+    <string name="txt_map">Mapa</string>
+    <string name="txt_how">¿Còmo llegar a la FIL?</string>
+    <!--BOTON FIL NIÑOS-->
+    <string name="txt_FilC">FIL Niños</string>
+    <!--BOTON FIL PROGRAMA-->
+    <string name="txt_program">Programa General</string>
+    <!--BOTON FIL PLANO-->
+    <string name="txt_plano">Plano</string>
+    <!--BOTON FIL FAVORITOS-->
+    <string name="txt_Fav">Favoritos</string>
+    <!--BOTON FIL FORO-->
+    <string name="txt_Foro">Foro</string>
+    <!--BOTON FIL EDITORIALES-->
+    <string name="txt_Edit">Editoriales</string>
+    <!--BOTON FIL BUSCADOR-->
+    <string name="txt_Busc">Buscador de libros</string>
+    <!--BOTON FIL COMIDA-->
+    <string name="txt_Comida">Donde Comer</string>
+    <!--BOTON FIL HOTELES-->
+    <string name="txt_Hotel">Hoteles</string>
+    <!--BOTON FIL NOTAS-->
+    <string name="txt_Notas">Mis notas</string>
+    <!--BOTON FIL AVISO-->
+    <string name="txt_Aviso">Aviso de conf.</string>
+    <!--BOTON FIL ACTUALIZAR-->
+    <string name="txt_Act">Actualizar datos</string>
+    <!--BOTON REDES SOCIALES -->
+    <string name="txt_Redes">Redes Sociales</string>
+    <string name="txt_Red_Face">Facebook</string>
+    <string name="txt_Red_Twit">Twitter</string>
+    <string name="txt_Red_Insta">Instagram</string>
+    <string name="txt_Red_Yout">Youtube</string>
+    <string name="txt_Red_SoundC">Soundcloud</string>
+    <!--IMAGENES-->
+    <string name="txt_cartel2">FIL</string>
+    <!--BARRA INFERIOR Y SUPERIOR-->
+    <string name="txt_nav_gif">FIL</string>
+    <string name="txt_nav_img">FIL</string>
+    <string name="txt_nav_inicio">Inicio</string>
+    <string name="txt_nav_buscar">Buscar</string>
+    <string name="txt_nav_favoritos">Favoritos</string>
+
+
+</resources>

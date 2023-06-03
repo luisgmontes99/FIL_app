@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Programa_G">
+
+    <TableRow
+        android:id="@+id/enav_encabeazado"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#D67676"
+        android:backgroundTint="#C57676"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#162542">
+
+            <ImageButton
+                android:id="@+id/btn_regresar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#E9EDF3"
+                android:contentDescription="@string/txt_nav_inicio"
+                android:onClick="Inicio5"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/img_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:contentDescription="@string/txt_nav_img"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img_horizontal"
+                tools:srcCompat="@drawable/img_horizontal" />
+
+        </TableRow>
+    </TableRow>
+
+    <WebView
+        android:id="@+id/web_pro"
+        android:layout_width="0dp"
+        android:layout_height="852dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enav_encabeazado" />
+</androidx.constraintlayout.widget.ConstraintLayout>

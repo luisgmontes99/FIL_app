@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/enav_encabeazado"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#D67676"
+        android:backgroundTint="#C57676"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#162542">
+
+            <ImageButton
+                android:id="@+id/btn_regresar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#E9EDF3"
+                android:contentDescription="@string/txt_nav_inicio"
+                android:onClick="regreso2"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/img_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:contentDescription="@string/txt_nav_img"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img_horizontal"
+                tools:srcCompat="@drawable/img_horizontal" />
+
+        </TableRow>
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="407dp"
+        android:layout_height="333dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/nav_abajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enav_encabeazado"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txt_Red_Face" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txt_Red_Insta" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txt_Red_Yout" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txt_Red_Twit" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF"
+            android:paddingTop="0dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/link5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/txt_Red_SoundC" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/nav_abajo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#9A9C65"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_gif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/txt_nav_gif"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/img_horizontal"
+                tools:srcCompat="@drawable/img_horizontal" />
+
+            <ImageView
+                android:id="@+id/img_inicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/txt_nav_inicio"
+                android:onClick="regreso2"
+                app:srcCompat="@drawable/casa"
+                tools:srcCompat="@drawable/casa" />
+
+            <ImageView
+                android:id="@+id/img_buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/txt_nav_buscar"
+                app:srcCompat="@drawable/lupa"
+                tools:srcCompat="@drawable/lupa" />
+
+            <ImageView
+                android:id="@+id/img_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/txt_nav_favoritos"
+                app:srcCompat="@drawable/favorito"
+                tools:srcCompat="@drawable/favorito" />
+
+        </TableRow>
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
